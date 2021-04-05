@@ -40,7 +40,9 @@
 ## Features
 This webpage was created as a submission to a DevChallenges (https://www.devchallenges.io/challenges) challenge. The challenge (https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build a webpage that satisfies the following user stories:
 
-- <b>User story:</b> I can see a page following the given design
+- <b>User story:</b> I can see a recipe with ingredients and instructions
+- <b>User story:</b> I can select a checkbox if I have the ingredien<b>ts
+- <b>User story:</b> I can see number of servings, baking times
 
 ## Contact
 - Website [marvinrusinek.com] (http://www.marvinrusinek.com)
