@@ -1,0 +1,68 @@
+@import "../../styles/variables";
+
+header {
+  margin-top: 52px;
+  margin-left: 236px;
+  margin-right: 237px;
+
+  .recipe-title {
+    font: 700 48px "Playfair Display", sans-serif;
+    line-height: 64px;
+    color: $black;
+  }
+
+  .recipe-about {
+    display: flex;
+    justify-content: flex-start;
+    vertical-align: top;
+    margin-top: -30px;
+
+    &-dots {
+      img {
+        margin-top: 25px;
+      }
+    }
+
+    &-text {
+      margin-left: 10px;
+      display: inline;
+      font: 500 14px "Montserrat", sans-serif;
+      font-style: italic;
+      line-height: 1.75;
+      max-width: 591px;
+      min-height: 51px;
+      color: $light-black;
+      text-align: justify;
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  header {
+    margin-top: 32px;
+    margin-left: 11px;
+    margin-right: 12px;
+
+    h1 {
+      font: 700 24px "Playfair Display", sans-serif !important;
+      width: 400px;
+    }
+    .recipe-about {
+      width: 320px;
+      margin-top: -15px;
+
+      .recipe-about-dots {
+        img {
+          margin-top: 17.5px;
+        }
+      }
+      .recipe-about-text {
+        font: 500 12px "Montserrat", sans-serif;
+        font-style: italic;
+        line-height: 15px;
+        color: $light-black;
+        width: 400px;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.hero {
+  margin-top: 30px;
+  margin-left: 234px;
+  margin-right: 237px;
+
+  img {
+    width: 969px;
+    height: 470px;
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .hero {
+    margin-top: 0;
+    margin-left: 11px;
+    margin-right: 12px;
+
+    img {
+      width: 420px;
+      height: auto;
+    }
+  }
+}
