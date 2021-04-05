@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="FILL IN">Demo</a>
+    <a href="https://recipe-blog-two.vercel.app">Demo</a>
     <span> | </span>
     <a href="https://www.github.com/marvinrusinek/devchallenges-recipe-blog">Solution</a>
     <span> | </span>
@@ -30,9 +30,9 @@
 <b>Screenshot:</b> 
 <img src="http://www.marvinrusinek.com/portfolio-projects/devchallenges-recipe-blog.png" align="center">
 
-- Live demo can be found here: FILL IN
+- Live demo can be found here: https://recipe-blog-two.vercel.app
 - The webpage was relatively easy to develop using Angular framework.
-- I used HTML5 along with SCSS and media queries to stylize the page.
+- I used HTML5, SCSS, CSS Grid/grid areas and media query to make the page responsive for mobile devices.
 
 ### Built With
 - Angular (https://www.angular.io/)
